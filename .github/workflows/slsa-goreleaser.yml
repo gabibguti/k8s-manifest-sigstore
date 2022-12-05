@@ -1,5 +1,7 @@
 name: SLSA go releaser
 on:
+  workflow_dispatch:
+    
   push:
     tags:
       # available only for tags like `v1.2.3` or `v1.2.3-rc1`
